@@ -1,5 +1,5 @@
-## Time-clock-system-with-RFID
-# Connect RFID-RC522 to ESP8266:
+# Time-clock-system-with-RFID
+## Connect RFID-RC522 to ESP8266:
 SDA (SS_PIN) -> D4
 SCK -> D5
 MOSI -> D7
@@ -11,7 +11,7 @@ Use 3.3V power supply for ESP8266 and RFID-RC522.
 
 Here are the SQL commands you can use to create the `employees` and `attendance` tables in your `employee_system` database:
 
-# Step 1: Create `employees` Table
+### Step 1: Create `employees` Table
 This table stores employee information, including their unique ID, name, and RFID UID.
 
 ```sql
@@ -22,7 +22,7 @@ CREATE TABLE employees (
 );
 ```
 
-# Step 2: Create `attendance` Table
+### Step 2: Create `attendance` Table
 This table stores attendance records for employees, including their check-in and check-out times and dates.
 
 ```sql
@@ -36,7 +36,7 @@ CREATE TABLE attendance (
 );
 ```
 
-# Instructions:
+### Instructions:
 1. Open your database management tool (like phpMyAdmin or any SQL client).
 2. Select the `employee_system` database.
 3. Run the SQL commands one by one in the SQL query section to create the tables.
@@ -54,4 +54,3 @@ CREATE TABLE attendance (
     - `check_out_time`: Time when the employee checked out (optional).
     - `check_out_date`: Date when the employee checked out (optional).
 
-If you need any modifications or additional features, feel free to ask!
